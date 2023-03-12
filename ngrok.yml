@@ -1,0 +1,12 @@
+  GNU nano 6.2                                            ngrok.yml                                                     version: "2"
+authtoken: **********************
+tunnels:
+  first:
+    addr: 22
+    proto: tcp
+  second:
+    addr: 7860
+    proto: http
+  third:
+    addr: 25565
+    proto: tcp

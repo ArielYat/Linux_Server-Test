@@ -1,0 +1,3 @@
+0 4 * * * /sbin/shutdown -r now
+*/20 * * * * /usr/bin/python3 /home/moshe/startup/checking2.py
+@reboot /home/moshe/startup/startupNgrok2

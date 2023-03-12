@@ -1,0 +1,3 @@
+#!/bin/bash
+tmux new-session -d -s MySession
+tmux send-keys -t MySession "/home/moshe/startup/ngrok start --all" Enter

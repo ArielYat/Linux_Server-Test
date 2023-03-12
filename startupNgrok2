@@ -1,0 +1,3 @@
+#!/bin/bash
+tmux new-session -d -s lonoport
+tmux send-keys -t lonoport "/usr/bin/python3 /home/moshe/startup/checking3.py" Enter

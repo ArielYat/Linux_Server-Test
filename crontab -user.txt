@@ -1,0 +1,2 @@
+@reboot /home/moshe/startup/startupNgrok && /usr/bin/python3 /home/moshe/startup/email123.py
+*/20 * * * * /usr/bin/python3 /home/moshe/startup/checking.py
